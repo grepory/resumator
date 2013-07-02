@@ -4,8 +4,12 @@
 
 <%= objective %>
 
-## Experience
+## Education
+<%= education['school'] %>
+<%= education['degree'] %> - <%= education['graduation'] %>
+GPA: <%= education['gpa'] %>
 
+## Experience
 <% experience.each do |job| %>
 ### <%= job['company'] %>: <%= job['name'] %>
 <%= job['start_date'] %> - <%= job['end_date'] %>
