@@ -18,8 +18,9 @@ gem install resumator
 
 Simply input your resume data in a format that is readable by resumator.
 
+```yaml
 Name: Greg Poirier
-Objective: >
+Objective:
   Never have to update an HTML version of a resume again
 Experience:
   - Opower:
@@ -28,6 +29,7 @@ Experience:
     - Network security automation.
   - self:
     - Wrote resumator, among other things.
+```
 
 Take care of capitalization yourself, because Resumator ain't know no English.
 You can build your own templates and inform Resumeator about them via a 
