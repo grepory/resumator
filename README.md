@@ -32,7 +32,7 @@ Experience:
 ```
 
 Take care of capitalization yourself, because Resumator ain't know no English.
-You can build your own templates and inform Resumeator about them via a 
+You can build your own templates and inform Resumator about them via a 
 .resumatorrc file in your home director of the format:
 
 templatetype: path/to/template
