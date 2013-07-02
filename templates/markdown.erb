@@ -8,7 +8,7 @@
 
 <% experience.each do |job| %>
 ### <%= job['company'] %>: <%= job['name'] %>
-  <%= job['start_date'] %> - <%= job['end_date'] %>
+<%= job['start_date'] %> - <%= job['end_date'] %>
   <% job['things'].each do |thing| %>
   * <%= thing %>
   <% end %>
